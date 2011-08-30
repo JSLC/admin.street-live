@@ -18,7 +18,7 @@
 		</dd>
 		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Stage'); ?></dt>
 		<dd<?php if ($i++ % 2 == 0) echo $class;?>>
-			<?php echo $this->Html->link($performance['Stage']['id'], array('controller' => 'stages', 'action' => 'view', $performance['Stage']['id'])); ?>
+			<?php echo $this->Html->link($performance['Stage']['name'], array('controller' => 'stages', 'action' => 'view', $performance['Stage']['id'])); ?>
 			&nbsp;
 		</dd>
 		<dt<?php if ($i % 2 == 0) echo $class;?>><?php __('Performancetype'); ?></dt>

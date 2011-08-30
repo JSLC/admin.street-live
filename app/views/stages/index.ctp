@@ -3,6 +3,7 @@
 	<table cellpadding="0" cellspacing="0">
 	<tr>
 			<th><?php echo $this->Paginator->sort('id');?></th>
+			<th><?php echo $this->Paginator->sort('name');?></th>
 			<th><?php echo $this->Paginator->sort('country_id');?></th>
 			<th><?php echo $this->Paginator->sort('city_id');?></th>
 			<th><?php echo $this->Paginator->sort('place_id');?></th>
@@ -18,6 +19,7 @@
 	?>
 	<tr<?php echo $class;?>>
 		<td><?php echo $stage['Stage']['id']; ?>&nbsp;</td>
+		<td><?php echo $stage['Stage']['name']; ?>&nbsp;</td>
 		<td>
 			<?php echo $this->Html->link($stage['Country']['name'], array('controller' => 'countries', 'action' => 'view', $stage['Country']['id'])); ?>
 		</td>

@@ -6,6 +6,7 @@
 			<th><?php echo $this->Paginator->sort('name');?></th>
 			<th><?php echo $this->Paginator->sort('nameyomi');?></th>
 			<th><?php echo $this->Paginator->sort('city_id');?></th>
+			<th><?php echo $this->Paginator->sort('birthday');?></th>
 			<th><?php echo $this->Paginator->sort('blood_id');?></th>
 			<th><?php echo $this->Paginator->sort('height');?></th>
 			<th><?php echo $this->Paginator->sort('weight');?></th>
@@ -30,6 +31,7 @@
 		<td>
 			<?php echo $this->Html->link($member['City']['name'], array('controller' => 'cities', 'action' => 'view', $member['City']['id'])); ?>
 		</td>
+		<td><?php echo $member['Member']['birthday']; ?>&nbsp;</td>
 		<td>
 			<?php echo $this->Html->link($member['Blood']['name'], array('controller' => 'bloods', 'action' => 'view', $member['Blood']['id'])); ?>
 		</td>

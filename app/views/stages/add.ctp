@@ -3,6 +3,7 @@
 	<fieldset>
 		<legend><?php __('Add Stage'); ?></legend>
 	<?php
+		echo $this->Form->input('name');
 		echo $this->Form->input('country_id');
 		echo $this->Form->input('city_id');
 		echo $this->Form->input('place_id');

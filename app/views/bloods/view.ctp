@@ -33,6 +33,7 @@
 		<th><?php __('Name'); ?></th>
 		<th><?php __('Nameyomi'); ?></th>
 		<th><?php __('City Id'); ?></th>
+		<th><?php __('Birthday'); ?></th>
 		<th><?php __('Blood Id'); ?></th>
 		<th><?php __('Height'); ?></th>
 		<th><?php __('Weight'); ?></th>
@@ -55,6 +56,7 @@
 			<td><?php echo $member['name'];?></td>
 			<td><?php echo $member['nameyomi'];?></td>
 			<td><?php echo $member['city_id'];?></td>
+			<td><?php echo $member['birthday'];?></td>
 			<td><?php echo $member['blood_id'];?></td>
 			<td><?php echo $member['height'];?></td>
 			<td><?php echo $member['weight'];?></td>

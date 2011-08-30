@@ -44,6 +44,7 @@
 		<th><?php __('Name'); ?></th>
 		<th><?php __('Nameyomi'); ?></th>
 		<th><?php __('City Id'); ?></th>
+		<th><?php __('Birthday'); ?></th>
 		<th><?php __('Blood Id'); ?></th>
 		<th><?php __('Height'); ?></th>
 		<th><?php __('Weight'); ?></th>
@@ -66,6 +67,7 @@
 			<td><?php echo $member['name'];?></td>
 			<td><?php echo $member['nameyomi'];?></td>
 			<td><?php echo $member['city_id'];?></td>
+			<td><?php echo $member['birthday'];?></td>
 			<td><?php echo $member['blood_id'];?></td>
 			<td><?php echo $member['height'];?></td>
 			<td><?php echo $member['weight'];?></td>
@@ -135,6 +137,7 @@
 	<table cellpadding = "0" cellspacing = "0">
 	<tr>
 		<th><?php __('Id'); ?></th>
+		<th><?php __('Name'); ?></th>
 		<th><?php __('Country Id'); ?></th>
 		<th><?php __('City Id'); ?></th>
 		<th><?php __('Place Id'); ?></th>
@@ -150,6 +153,7 @@
 		?>
 		<tr<?php echo $class;?>>
 			<td><?php echo $stage['id'];?></td>
+			<td><?php echo $stage['name'];?></td>
 			<td><?php echo $stage['country_id'];?></td>
 			<td><?php echo $stage['city_id'];?></td>
 			<td><?php echo $stage['place_id'];?></td>

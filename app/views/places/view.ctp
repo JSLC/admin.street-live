@@ -44,6 +44,7 @@
 	<table cellpadding = "0" cellspacing = "0">
 	<tr>
 		<th><?php __('Id'); ?></th>
+		<th><?php __('Name'); ?></th>
 		<th><?php __('Country Id'); ?></th>
 		<th><?php __('City Id'); ?></th>
 		<th><?php __('Place Id'); ?></th>
@@ -59,6 +60,7 @@
 		?>
 		<tr<?php echo $class;?>>
 			<td><?php echo $stage['id'];?></td>
+			<td><?php echo $stage['name'];?></td>
 			<td><?php echo $stage['country_id'];?></td>
 			<td><?php echo $stage['city_id'];?></td>
 			<td><?php echo $stage['place_id'];?></td>

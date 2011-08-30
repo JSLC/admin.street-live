@@ -28,7 +28,7 @@
 			<?php echo $this->Html->link($performance['Performer']['name'], array('controller' => 'performers', 'action' => 'view', $performance['Performer']['id'])); ?>
 		</td>
 		<td>
-			<?php echo $this->Html->link($performance['Stage']['id'], array('controller' => 'stages', 'action' => 'view', $performance['Stage']['id'])); ?>
+			<?php echo $this->Html->link($performance['Stage']['name'], array('controller' => 'stages', 'action' => 'view', $performance['Stage']['id'])); ?>
 		</td>
 		<td>
 			<?php echo $this->Html->link($performance['Performancetype']['name'], array('controller' => 'performancetypes', 'action' => 'view', $performance['Performancetype']['id'])); ?>
