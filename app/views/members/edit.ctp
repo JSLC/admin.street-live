@@ -7,7 +7,7 @@
 		echo $this->Form->input('name');
 		echo $this->Form->input('nameyomi');
 		echo $this->Form->input('city_id');
-		echo $this->Form->input('birthday');
+		echo $this->Form->input('birthday',array('dateFormat'=>'Ymd','empty'=>'選択','minYear'=>date('Y')-100,'maxYear'=>date('Y')));
 		echo $this->Form->input('blood_id');
 		echo $this->Form->input('height');
 		echo $this->Form->input('weight');
